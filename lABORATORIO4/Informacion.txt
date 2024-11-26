@@ -1,0 +1,31 @@
+para empezar dividí la explicación en 6 partes de todo lo que se realizo en el proyecto 
+
+1 Ventana del juego:
+
+Para crear el juego, empezamos con una ventana que sirve como el espacio principal donde se verá todo. En esta ventana agregamos un área especial que actúa como el tablero del juego de tres por tres, con casillas cuadradas en forma de cuadrícula.
+Cada casilla del tablero es un botón en el que se puede hacer clic. Así, los jugadores pueden marcar su jugada en la casilla que elijan.
+En la parte superior de la ventana hay un texto que va mostrando de quién es el turno, para que los jugadores sepan cuándo les toca.
+Colores y estilo visual:
+
+2 Elegimos una combinación de colores suave y agradable para que el juego sea cómodo de ver.
+La ventana principal tiene un color de fondo muy suave que le da al juego una apariencia acogedora.
+Las casillas (botones) del tablero tienen un color más llamativo para que se distingan bien, con bordes más oscuros para hacer contraste. El texto de las jugadas ("X" y "O") está en un color oscuro para que sea fácil de leer.
+También, el texto que muestra de quién es el turno está resaltado para que destaque y sea claro para los jugadores.
+Movimiento animado de las fichas:
+
+3 Cuando un jugador coloca su ficha en el tablero, se usa una animación que hace que la ficha parezca "deslizarse" hacia la casilla elegida. Esto da un efecto visual más dinámico, como si la ficha se moviera y "rebotara" un poco al llegar a su lugar.
+Este efecto se hace moviendo la ficha en pequeños pasos, lo cual hace que el movimiento se vea suave y continuo. Al final del movimiento, la ficha se detiene y hace un pequeño "rebote" que simula un efecto más realista.
+Evitar clics accidentales:
+
+4 Para evitar que los jugadores hagan clic en otras casillas mientras se mueve la ficha, el programa desactiva todos los botones del tablero durante la animación.
+Al terminar el movimiento, los botones vuelven a activarse, permitiendo que el próximo jugador haga su jugada en la casilla que desee.
+Lógica del juego y cambio de turno:
+
+5 Después de cada jugada, el programa revisa si alguien ha ganado o si ya no quedan casillas disponibles, lo cual significa que el juego termina en empate.
+Si hay un ganador, se muestra un mensaje en la parte superior indicando quién ganó. Si hay empate, también se muestra un mensaje.
+Automáticamente, el turno se cambia de un jugador a otro, actualizando el texto que muestra de quién es el turno.
+Inicio del juego:
+
+6 Para iniciar el juego, simplemente ejecutamos el programa. Esto abre la ventana del tablero, mostrando el área donde se puede jugar. Los jugadores solo tienen que hacer clic en la casilla donde quieran colocar su ficha, y el programa se encarga de todo lo demás.
+
+En conjunto, estos elementos crean una experiencia de juego fluida y agradable, con una interfaz amigable y con animaciones que la hacen más atractiva y fácil de jugar para todos.
